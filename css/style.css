@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 60%;
+    min-height: 250px;
+    background-color: lightgray;
+    margin: auto;
+}
+
+img {
+    display: inline-block;
+}
+
+.products-container {
+    width: calc(100% / 3);
+    background-color: grey;   
+}
+
+.product {
+    width: 100%;
+}
+
+.product-overlay{
+    display: none;
+}
+
+.products-card:hover .product-overlay {
+    display: inline-block;
+}
