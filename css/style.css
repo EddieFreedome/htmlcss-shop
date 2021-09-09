@@ -4,6 +4,10 @@
     box-sizing: border-box;
 }
 
+body{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
 main {
     width: 60%;
     min-height: 250px;
