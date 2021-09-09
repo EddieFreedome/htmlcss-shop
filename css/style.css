@@ -18,7 +18,7 @@ img {
 
 h3{
     font-weight: bold;
-    padding-bottom: 5px;
+    padding-bottom: 3px;
 }
 
 h4{
@@ -29,7 +29,7 @@ h4{
 .products-container {
     width: 100%;
     background-color: rgb(255, 255, 255);
-    word-spacing: 15px; 
+    word-spacing: 5px; 
 }
 
 .product-card {
@@ -37,7 +37,6 @@ h4{
     position: relative;
     display: inline-block;
     word-spacing: normal;
-    margin-bottom: 15px;
 }
 
 
@@ -50,20 +49,12 @@ h4{
 }
 
 
-.product-card:hover .overlay{
-    display: inline-block;
-    z-index: 1;
-}
-
-
 .product-overlay {
     display: none;
-
 }
 
 .product-title{
     padding-top: 5px;
-
 }
 
 .discount-50{
@@ -100,4 +91,16 @@ h4{
     padding: 10px 15px;
     top: 15px;
     right: 0px;
+}
+
+.rosso{
+    color: red;
+}
+
+.sconto{
+    text-decoration: line-through;
+}
+
+#sustain-6 {
+    left: 0;
 }
