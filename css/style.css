@@ -13,21 +13,71 @@ main {
 
 img {
     display: inline-block;
-}
-
-.products-container {
-    width: calc(100% / 3);
-    background-color: grey;   
-}
-
-.product {
     width: 100%;
 }
 
-.product-overlay{
-    display: none;
+.products-container {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    word-spacing: 15px; 
 }
 
-.products-card:hover .product-overlay {
+.product-card {
+    width: calc(100% / 3 - 30px);
+    position: relative;
     display: inline-block;
+    word-spacing: normal;
+    margin-bottom: 15px;
+}
+
+
+.product-card:hover .product-overlay {
+    display: inline-block;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+/*.img-container{
+    position: relative;
+}*/
+
+.product-card:hover .overlay{
+    display: inline-block;
+    z-index: 1;
+}
+
+
+.product-overlay {
+    display: none;
+
+}
+
+
+.overlay{
+    display: none;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.055);
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+}
+
+
+.discount-50{
+    background-color: red;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 5px;
+}
+
+.discount-small{
+    background-color: green;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 2px 5px;
 }
