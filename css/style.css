@@ -16,6 +16,16 @@ img {
     width: 100%;
 }
 
+h3{
+    font-weight: bold;
+    padding-bottom: 5px;
+}
+
+h4{
+    font-weight: 500;
+}
+
+
 .products-container {
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -39,9 +49,6 @@ img {
     top: 0;
 }
 
-/*.img-container{
-    position: relative;
-}*/
 
 .product-card:hover .overlay{
     display: inline-block;
@@ -54,30 +61,43 @@ img {
 
 }
 
+.product-title{
+    padding-top: 5px;
 
-.overlay{
-    display: none;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.055);
-    height: 100%;
-    width: 100%;
-    top: 0;
-    left: 0;
 }
-
 
 .discount-50{
-    background-color: red;
     position: absolute;
-    top: 0;
-    right: 0;
+    background-color: red;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    bottom: 90px;
+    left: 0;
     padding: 2px 5px;
+    z-index: 1;
+    padding: 5px 5px;
 }
 
-.discount-small{
-    background-color: green;
+.sostenibilita{
     position: absolute;
-    top: 0;
-    right: 0;
+    background-color: rgb(30, 160, 84);
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    bottom: 90px;
+    left: 53px;
     padding: 2px 5px;
+    z-index: 1;
+    padding: 5px 5px;
+}
+
+.heart-card{
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    font-size: 30px;
+    line-height: 30px;
+    padding: 10px 15px;
+    top: 15px;
+    right: 0px;
 }
