@@ -25,7 +25,6 @@ h4{
     font-weight: 500;
 }
 
-
 .products-container {
     width: 100%;
     background-color: rgb(255, 255, 255);
@@ -33,7 +32,7 @@ h4{
 }
 
 .product-card {
-    width: calc(100% / 3 - 30px);
+    width: calc(100% / 3 - 10px);
     position: relative;
     display: inline-block;
     word-spacing: normal;
@@ -45,7 +44,7 @@ h4{
     position: absolute;
     height: 100%;
     left: 0;
-    top: 0;
+    top: 5px;
 }
 
 
